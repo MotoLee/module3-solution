@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+	background-color: #FFB2EB;
+	font-size: 16px;
+}
+
+#header-nav{
+	background-color: #C7265D;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1{
+	color: white;
+	font-size: 1.5em;
+	font-weight: bolder;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid #FFB2EB;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: white;
+	text-align: center;
+	font-size: 1.2em;
+}
+#nav-list a:hover {
+	background-color: #FFB2EB;
+}
+
+h2{
+	font-family: 'Oxygen', Arial;
+	font-weight: bolder;
+	font-size: 2em;
+	color: #C7265D;
+}
+
+#main-content{
+	
+}
+
+.chicken{
+	background-color: #F2FBA2;
+	margin: 10px auto 0px;
+	height: 1000px;
+}
+
+.chicken h3{
+	font-family: 'Oxygen', Arial;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #9F4715;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.chicken p{
+	line-height: 2em;
+	padding-left: 20px;
+	padding-right: 20px;
+}
